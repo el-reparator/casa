@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rilevatore sonoro - prototipo</title>
+</head>
+<body>
+  <h1>Rilevatore sonoro (prototipo)</h1>
+  <button id="startBtn">Avvia ascolto</button>
+  <button id="stopBtn" disabled>Ferma</button>
+  <div id="status">Stato: fermo</div>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.0.0/dist/tf.min.js"></script>
+  <!-- opzionale: model di speech-commands se vuoi usare pretrained -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.6.0/dist/speech-commands.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
